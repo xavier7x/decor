@@ -420,7 +420,7 @@ if($pdet_valor['sistemaactivo'] == 'SI'){
 
                 $graficoProducto .= '</div>';
 
-                //******************************
+                //*******************************
                 
                 return $graficoProducto;
             }
