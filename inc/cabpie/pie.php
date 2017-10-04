@@ -126,6 +126,18 @@
             case 'jquery-treeview':
                 echo '<script type="text/javascript" language="javascript" src="'.$pdet_valor['hostapp'].'/lib/js/jzaefferer-jquery-treeview/jquery.treeview.js"></script>';
                 break;
+            case 'carousel':
+                echo '<script type="text/javascript" language="javascript" src="'.$pdet_valor['hostapp'].'/lib/js/owl.carousel.js"></script>';
+                break;
+            case 'scroll':
+                echo '<script type="text/javascript" language="javascript" src="'.$pdet_valor['hostapp'].'/lib/js/jquery-scrolltofixed-min.js"></script>';
+                break;
+            case 'move-top':
+                echo '<script type="text/javascript" language="javascript" src="'.$pdet_valor['hostapp'].'/lib/js/move-top.js"></script>';
+                break;
+            case 'jquery-marquee':
+                echo '<script type="text/javascript" language="javascript" src="'.$pdet_valor['hostapp'].'/lib/js/jquery.marquee.min.js"></script>';
+                break;
             case 'highcharts':
                 echo '<script type="text/javascript" language="javascript" src="'.$pdet_valor['hostapp'].'/lib/js/Highcharts-4.2.5/js/highcharts.js"></script>';
                 echo '<script type="text/javascript" language="javascript" src="'.$pdet_valor['hostapp'].'/lib/js/Highcharts-4.2.5/js/modules/exporting.js"></script>';
@@ -136,7 +148,75 @@
 
 <script type="text/javascript" language="javascript" src="<?php echo $pdet_valor['hostapp']; ?>/js/cabpie/funciones.js?v=<?php echo $pdet_valor['webversion']; ?>"></script>
 <script type="text/javascript" language="javascript" src="<?php echo $pdet_valor['hostapp']; ?>/js/<?php echo $varAcceso['ventana']; ?>/funciones.js?v=<?php echo $pdet_valor['webversion']; ?>"></script>
+<!--adicion de eventos de la nueva plantilla-->
+<script>
+        $(document).ready(function() {
+            $("#owl-demo").owlCarousel({
+                autoPlay: 3000, //Set AutoPlay to 3 seconds 
+                items: 4,
+                itemsDesktop: [640, 5],
+                itemsDesktopSmall: [480, 2],
+                navigation: true
 
+            });
+        });
+</script>
+    <script>
+        $(document).ready(function() {
+
+            // Dock the header to the top of the window when scrolled past the banner. This is the default behaviour.
+
+            $('.header-two').scrollToFixed();
+            // previous summary up the page.
+
+            var summaries = $('.summary');
+            summaries.each(function(i) {
+                var summary = $(summaries[i]);
+                var next = summaries[i + 1];
+
+                summary.scrollToFixed({
+                    marginTop: $('.header-two').outerHeight(true) + 10,
+                    zIndex: 999
+                });
+            });
+        });
+    </script>
+<script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+</script>
+<script type="text/javascript">
+        $(document).ready(function() {
+
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+            };
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+<script>
+        $('#myModal88').modal('show');
+</script>
+<script>
+    $('.marquee').marquee({
+        pauseOnHover: true
+    });
+    //@ sourceURL=pen.js
+</script>    
+<!--fin adicionales nueva plantilla-->
 <?php
 $url = $_SERVER['HTTP_HOST'];
 if(

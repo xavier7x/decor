@@ -29,76 +29,9 @@
     <meta name="robots" content="index, follow">
     <!--adicion de la nueva plantilla-->
 
-    <!-- font-awesome icons -->
-    
-    
-    <script src="js/owl.carousel.js"></script>
-    <script>
-        $(document).ready(function() {
-            $("#owl-demo").owlCarousel({
-                autoPlay: 3000, //Set AutoPlay to 3 seconds 
-                items: 4,
-                itemsDesktop: [640, 5],
-                itemsDesktopSmall: [480, 2],
-                navigation: true
-
-            });
-        });
-    </script>
-    <script src="js/jquery-scrolltofixed-min.js" type="text/javascript"></script>
-    <script>
-        $(document).ready(function() {
-
-            // Dock the header to the top of the window when scrolled past the banner. This is the default behaviour.
-
-            $('.header-two').scrollToFixed();
-            // previous summary up the page.
-
-            var summaries = $('.summary');
-            summaries.each(function(i) {
-                var summary = $(summaries[i]);
-                var next = summaries[i + 1];
-
-                summary.scrollToFixed({
-                    marginTop: $('.header-two').outerHeight(true) + 10,
-                    zIndex: 999
-                });
-            });
-        });
-    </script>
-    <!-- start-smooth-scrolling -->
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function($) {
-            $(".scroll").click(function(event) {
-                event.preventDefault();
-                $('html,body').animate({
-                    scrollTop: $(this.hash).offset().top
-                }, 1000);
-            });
-        });
-    </script>
-    <!-- //end-smooth-scrolling -->
-    <!-- smooth-scrolling-of-move-up -->
-    <script type="text/javascript">
-        $(document).ready(function() {
-
-            var defaults = {
-                containerID: 'toTop', // fading element id
-                containerHoverID: 'toTopHover', // fading element hover id
-                scrollSpeed: 1200,
-                easingType: 'linear'
-            };
-
-            $().UItoTop({
-                easingType: 'easeOutQuart'
-            });
-
-        });
-    </script>
+    <!--<script type="text/javascript" src="js/easing.js"></script>-->
     <!-- //smooth-scrolling-of-move-up -->
-    <script src="js/bootstrap.js"></script>
+    <!--<script src="js/bootstrap.js"></script>-->
     <!--hasta aqui nueva plantilla-->
     <link href="<?php echo $pdet_valor['hostapp']; ?>/images/system/favicon.ico?v=<?php echo $pdet_valor['webversion']; ?>" rel="icon" type="image/x-icon"/>
     
@@ -202,9 +135,7 @@
             </div>
         </div>
     </div>
-    <script>
-        $('#myModal88').modal('show');
-    </script>
+    
     <!-- header -->
 <!-- fin modal nueva plantilla-->
 <!-- Modal Peligro -->
@@ -1231,13 +1162,7 @@
                 </div>
                 <div class="move-text">
                     <div class="marquee"><a href="offers.html"> New collections are available here...... <span>Get extra 10% off on everything | no extra taxes </span> <span> Try shipping pass free for 15 days with unlimited</span></a></div>
-                    <script type="text/javascript" src="js/jquery.marquee.min.js"></script>
-                    <script>
-                        $('.marquee').marquee({
-                            pauseOnHover: true
-                        });
-                        //@ sourceURL=pen.js
-                    </script>
+                    
                 </div>
             </div>
         </div>
