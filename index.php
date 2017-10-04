@@ -417,6 +417,7 @@ if($pdet_valor['sistemaactivo'] == 'SI'){
                 $graficoProducto .= '</div>';
                 $graficoProducto .= '</div>';
                 $graficoProducto .= '</div>';
+
                 $graficoProducto .= '</div>';
 
                 //******************************
@@ -424,7 +425,7 @@ if($pdet_valor['sistemaactivo'] == 'SI'){
                 return $graficoProducto;
             }
         }
-        //***********************************
+        //************************************
 
         include('inc/cabpie/cabecera.php');
         include('inc/'.$varAcceso['ventana'].'/cuerpo.php');
