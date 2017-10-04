@@ -28,28 +28,10 @@
     <meta name='owner' content='Lcdo. Xavier Moreno Aviles'>
     <meta name="robots" content="index, follow">
     <!--adicion de la nueva plantilla-->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/menu.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- menu style -->
-    <link href="css/ken-burns.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- banner slider -->
-    <link href="css/animate.min.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
-    <!-- carousel slider -->
-    <!-- //Custom Theme files -->
+
     <!-- font-awesome icons -->
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <!-- //font-awesome icons -->
-    <!-- js -->
-    <script src="js/jquery-2.2.3.min.js"></script>
-    <!-- //js -->
-    <!-- web-fonts -->
-    <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Lovers+Quarrel' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Offside' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
-    <!-- web-fonts -->
+    
+    
     <script src="js/owl.carousel.js"></script>
     <script>
         $(document).ready(function() {
@@ -132,6 +114,12 @@
                     echo '<link href="'.$pdet_valor['hostapp'].'/lib/css/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>';
                     echo '<link href="'.$pdet_valor['hostapp'].'/lib/css/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>';
                     break;
+                case 'estilo':
+                    echo '<link href="'.$pdet_valor['hostapp'].'/lib/css/style.css" rel="stylesheet" type="text/css" media="all" />';
+                    break;
+                case 'menu':
+                    echo '<link href="'.$pdet_valor['hostapp'].'/lib/css/menu.css" rel="stylesheet" type="text/css" media="all" />';
+                    break;
                 case 'bootstrap-datepicker':
                     echo '<link href="'.$pdet_valor['hostapp'].'/lib/js/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css"/>';
                     break;
@@ -141,8 +129,18 @@
                 case 'jquery-treeview':
                     echo '<link href="'.$pdet_valor['hostapp'].'/lib/js/jzaefferer-jquery-treeview/jquery.treeview.css" rel="stylesheet" type="text/css"/>';
                     break;
+                case 'ken':
+                echo '<link href="'.$pdet_valor['hostapp'].'/lib/css/ken-burns.css" rel="stylesheet" type="text/css" media="all" />';
+                    break;
+                case 'animate':
+                    echo '<link href="'.$pdet_valor['hostapp'].'/lib/css/animate.min.css" rel="stylesheet" type="text/css" media="all" />';
+                        break;
+                case 'carousel':
+                    echo '<link href="'.$pdet_valor['hostapp'].'/lib/css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />';
+                        break;
                 case 'font-awesome':
                     echo '<link href="'.$pdet_valor['hostapp'].'/lib/css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>';
+                    echo '<link href="'.$pdet_valor['hostapp'].'/lib/css/font-awesome.css" rel="stylesheet" type="text/css" media="all">';
                     break;
                 case 'jstarbox':
                     echo '<link href="'.$pdet_valor['hostapp'].'/lib/js/jStarbox-master/css/jstarbox.css" rel="stylesheet" type="text/css"/>';
@@ -155,8 +153,12 @@
     <link href="<?php echo $pdet_valor['hostapp']; ?>/css/<?php echo $varAcceso['ventana']; ?>/style.css?v=<?php echo $pdet_valor['webversion']; ?>" rel="stylesheet" type="text/css"/>
     <link href="<?php echo $pdet_valor['hostapp']; ?>/css/cabpie/style.css?v=<?php echo $pdet_valor['webversion']; ?>" rel="stylesheet" type="text/css"/>
     
-    <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!-- web-fonts -->
+    <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lovers+Quarrel' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Offside' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+    <!-- web-fonts -->
     
 </head>
 <body>
