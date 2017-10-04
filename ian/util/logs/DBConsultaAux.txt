@@ -1,0 +1,5 @@
+2017-04-11 21:05:01 >>> Error en el query: ( Table 'marketton_indofrad.sys_smtp' doesn't exist ) 
+    SELECT *
+    FROM sys_smtp
+    LIMIT 1
+
