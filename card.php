@@ -1,14 +1,8 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Smart Bazaar an E-commerce Online Shopping Category Flat Bootstrap Responsive Website Template | About :: midecorhogar</title>
+    <title>Smart Bazaar an E-commerce Online Shopping Category Flat Bootstrap Responsive Website Template | Credit Card :: Mi decor hogar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Smart Bazaar Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -26,6 +20,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/animate.min.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- animation -->
     <link href="css/menu.css" rel="stylesheet" type="text/css" media="all" />
     <!-- menu style -->
     <!-- //Custom Theme files -->
@@ -148,8 +143,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
             <!-- header-two -->
             <div class="container">
                 <div class="header-logo">
-                    <h1><a href="index.html"><span>S</span>mart <i>Bazaar</i></a></h1>
-                    <h6>Your stores. Your place.</h6>
+                    <h1><a href="index.html"><span>D'</span>ecor <i>Hogar</i></a></h1>
+                    <h6>Innovando tu hogar.</h6>
                 </div>
                 <div class="header-search">
                     <form action="#" method="post">
@@ -1084,54 +1079,43 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
         </div>
     </div>
     <!-- //header -->
-    <!--  about-page -->
-    <div class="about">
+    <!-- card-page -->
+    <div class="card-page">
         <div class="container">
-            <h3 class="w3ls-title w3ls-title1">About Smart bazaar</h3>
-            <div class="about-text">
-                <p>Etiam faucibus viverra libero vel efficitur. Ut semper nisl ut laoreet ultrices. Maecenas dictum arcu purus, sit amet volutpat purus viverra sit amet. Quisque lacinia quam sed tortor interdum, malesuada congue nunc ornare. Cum sociis natoque
-                    penatibus et magnis dis parturient montes, nascetur ridiculus mus. In semper lorem eget tortor pulvinar ultricies. Nulla sodales efficitur consequat. Maecenas mi diam, imperdiet consectetur ultricies nec, convallis sit amet turpis.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor vehicula ipsum nec ultrices. Pellentesque sed feugiat sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor vehicula ipsum nec ultrices. Pellentesque
-                    sed feugiat sapien. ullamcorper nunc. Aenean eget massa orci. Vivamus vulputate elit at rutrum elementum. Duis sit amet posuere justo, sit amet finibus urna. Aenean elementum diam nec laoreet sodales. Morbi vulputate tempor nisl nec
-                    tristique.
-                </p>
-                <div class="col-md-3 ftr-top-left about-text-grids">
-                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
-                    <h4>10 Million+ <br>Products</h4>
+            <h3 class="w3ls-title w3ls-title1"> Smart bazaar Credit card</h3>
+            <div class="agile-card-top">
+                <div class="col-md-4 card-top-grids">
+                    <h4>Save <span>$15</span></h4>
+                    <i class="fa fa-camera" aria-hidden="true"></i>
+                    <h5>on purchase of Electronics In Smart bazaar.com</h5>
                 </div>
-                <div class="col-md-3 ftr-top-left about-text-grids">
+                <div class="col-md-4 card-top-grids">
+                    <h4>Save <span>$5</span></h4>
+                    <i class="fa fa-motorcycle" aria-hidden="true"></i>
+                    <h5>on purchase of Smart bazaar Automotive </h5>
+                </div>
+                <div class="col-md-4 card-top-grids">
+                    <h4>Save <span>$20</span></h4>
                     <i class="fa fa-users" aria-hidden="true"></i>
-                    <h4>50,000 <br> Sellers </h4>
-                </div>
-                <div class="col-md-3 ftr-top-left about-text-grids">
-                    <i class="fa fa-credit-card" aria-hidden="true"></i>
-                    <h4>5 Million <br>Shipments</h4>
-                </div>
-                <div class="col-md-3 ftr-top-left about-text-grids">
-                    <i class="fa fa-globe" aria-hidden="true"></i>
-                    <h4>4000+ <br>Cities</h4>
+                    <h5>on purchase of Clothings Using Card</h5>
                 </div>
                 <div class="clearfix"> </div>
             </div>
-            <div class="history">
-                <h3 class="w3ls-title">Our Mission</h3>
-                <p>Etiam faucibus viverra libero vel efficitur. Ut semper nisl ut laoreet ultrices. Maecenas dictum arcu purus, sit amet volutpat purus viverra sit amet. Quisque lacinia quam sed tortor interdum, malesuada congue nunc ornare. Cum sociis natoque
-                    penatibus et magnis dis parturient montes, nascetur ridiculus mus. In semper lorem eget tortor pulvinar ultricies. Nulla sodales efficitur consequat. Maecenas mi diam, imperdiet consectetur ultricies nec, convallis sit amet turpis.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor vehicula ipsum nec ultrices. Pellentesque sed feugiat sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor vehicula ipsum nec ultrices. Pellentesque
-                    sed feugiat sapien. ullamcorper nunc. Aenean eget massa orci. Vivamus vulputate elit at rutrum elementum. Duis sit amet posuere justo, sit amet finibus urna. Aenean elementum diam nec laoreet sodales. Morbi vulputate tempor nisl nec
-                    tristique.
-                </p>
-                <h3 class="w3ls-title">Our History</h3>
-                <p>Etiam faucibus viverra libero vel efficitur. Ut semper nisl ut laoreet ultrices. Maecenas dictum arcu purus, sit amet volutpat purus viverra sit amet. Quisque lacinia quam sed tortor interdum, malesuada congue nunc ornare. Cum sociis natoque
-                    penatibus et magnis dis parturient montes, nascetur ridiculus mus. In semper lorem eget tortor pulvinar ultricies. Nulla sodales efficitur consequat. Maecenas mi diam, imperdiet consectetur ultricies nec, convallis sit amet turpis.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor vehicula ipsum nec ultrices. Pellentesque sed feugiat sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor vehicula ipsum nec ultrices. Pellentesque
-                    sed feugiat sapien. ullamcorper nunc. Aenean eget massa orci. Vivamus vulputate elit at rutrum elementum. Duis sit amet posuere justo, sit amet finibus urna. Aenean elementum diam nec laoreet sodales. Morbi vulputate tempor nisl nec
-                    tristique.
-                </p>
+            <div class="agile-card-text">
+                <h5>New User Account Offers</h5>
+                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas faucibus ipsum et libero euismod iaculis. Integer consectetur congue laoreet. Morbi eget leo elementum, vulputate eros et, egestas diam.
+                    Nam egestas, quam id viverra congue, elit mi eleifend libero, eget vulputate ante lorem vel quam. Sed suscipit ligula eu mi bibendum, vel mollis enim finibus. Suspendisse vitae est tortor. Donec aliquet leo vitae ligula mattis, vitae
+                    auctor mi pellentesque. Integer eu dui accumsan, convallis neque id, malesuada urna. </p>
+                <h5>Special account openings</h5>
+                <p>Nulla sodales nulla et ipsum pharetra pharetra. Suspendisse potenti. Phasellus cursus vehicula lorem, nec dignissim orci cursus tempor. Suspendisse vel ullamcorper arcu. Mauris tellus augue, tristique ut varius ac, scelerisque ac urna.
+                    Mauris nibh ligula, cursus eu vehicula a, scelerisque a nunc. Mauris sit amet sem orci. Proin sit amet tortor non massa tincidunt faucibus. Sed a lacus a purus congue dignissim. Maecenas auctor urna et ullamcorper sagittis. Aenean
+                    semper, nisi sed vulputate euismod, justo odio dictum lorem, a mattis ipsum magna non quam.<br> Maecenas faucibus ipsum et libero euismod iaculis. Integer consectetur congue laoreet. Morbi eget leo elementum, vulputate eros et, egestas
+                    diam. Nam egestas, quam id viverra congue, elit mi eleifend libero, eget vulputate ante lorem vel quam. Sed suscipit ligula eu mi bibendum, vel mollis enim finibus. Suspendisse vitae est tortor. Donec aliquet leo vitae ligula mattis,
+                    vitae auctor mi pellentesque. Integer eu dui accumsan, convallis neque id, malesuada urna. </p>
             </div>
         </div>
     </div>
-    <!-- //about-page -->
+    <!-- //card-page -->
     <!-- footer-top -->
     <div class="w3agile-ftr-top">
         <div class="container">
